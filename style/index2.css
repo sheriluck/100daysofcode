@@ -1,0 +1,46 @@
+/* h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey }*/
+
+header{
+    margin-bottom:64px ;
+}
+ol{
+    list-style: none;
+   }
+   /* #for-header-para{   the substitue for this is use combinator 
+    margin-bottom: 30px; /means pis the child of header so i will use the
+}   / following css */
+
+header p{
+    margin: 12px; 
+ 
+}
+/* -----this above  will show the same result as " for-header-para"--- */
+
+main p{
+    margin-bottom: 5px;
+    color: lightgray;
+}
+.highlight{
+   background-color: rgb(167, 98, 131) ;
+}
+li{
+   
+    margin: 20px; 
+    background-color: rgb(182, 147, 164);
+    border-radius: 4px;
+    color: rgb(236, 241, 241);
+    width: 500px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(148, 141, 140);
+
+}
+/* a{
+    background-color: rgb(182, 147, 164);
+    border-radius: 4px;
+    color: mintcream;
+    padding: 0px, 0px;
+    margin: 10px 0;
+} */

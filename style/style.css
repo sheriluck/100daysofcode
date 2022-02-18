@@ -1,12 +1,59 @@
 body{
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(230, 219, 221);
     font-family:cursive,sans-serif;
-}
+    color:lightcoral
+} 
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(54, 53, 53);
+    margin:  0;
+    padding: 70px 0 0 0;
+} 
 a{
-    text-decoration: none;
-    color: rgb(189, 58, 171);
-}
+    
+        background: rgb(182, 147, 164);
+        border: 1px solid rgb(225, 147, 164);;
+        border-radius: 4px;
+        color: mintcream;
+        padding: 10px 48px;
+        font-size: 24px;
+        margin: 12px 0;
+        display: inline-block;
+    }
+
 a:hover{
     text-decoration-line: underline;
+    background-color: rgb(172, 131, 131);
+    }
+
+p{
+    color: rgb(139, 77, 77);
+    padding: 28px;
+}
+h2{
+    color:rgb(105, 78, 78);
+   
+}
+img{
+    border-radius: 100px;
+    margin: 30px auto -71px auto;
+}
+span{
+    color: rgb(230, 219, 221);
+}
+ .box{ 
+    border: 5px solid rgb(136, 92, 92);
+    background: rgb(196, 145, 162);
+    width: 500px;
+    margin: auto ;
+    border-radius: 10px;
+    box-shadow: 9px 8px 10px rgb(105, 78, 78);
+} 
+.page1anchor{
+    border: none;
+    color: rgb(73, 35, 35);
+    background: none;
+    text-decoration: none;
 }
